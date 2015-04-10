@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="heritage.canada.com.canadaheritage" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Heritage_Main"
+            android:label="@string/title_activity_heritage_main" >
+        </activity>
+        <activity
+            android:name=".Saskatchewan"
+            android:label="@string/title_activity_saskatchewan" >
+        </activity>
+        <activity
+            android:name=".Nova"
+            android:label="@string/title_activity_nova" >
+        </activity>
+        <activity
+            android:name=".Alberta"
+            android:label="@string/title_activity_alberta" >
+        </activity>
+        <activity
+            android:name=".Northwest"
+            android:label="@string/title_activity_northwest" >
+        </activity>
+        <activity
+            android:name=".Rockies"
+            android:label="@string/title_activity_rockies" >
+        </activity>
+        <activity
+            android:name=".Newfound"
+            android:label="@string/title_activity_newfound" >
+        </activity>
+        <activity
+            android:name=".AlbertaCommends"
+            android:label="@string/title_activity_commend" >
+        </activity>
+        <activity
+            android:name=".write"
+            android:label="@string/title_activity_write" >
+        </activity>
+        <activity
+            android:name=".Write"
+            android:label="@string/title_activity_write" >
+        </activity>
+        <activity
+            android:name=".Edit"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name=".SasCommends"
+            android:label="@string/title_activity_sas_commends" >
+        </activity>
+        <activity
+            android:name=".SasEdit"
+            android:label="@string/title_activity_sas_edit" >
+        </activity>
+        <activity
+            android:name=".Alberta_com1"
+            android:label="@string/title_activity_alberta_com1" >
+        </activity>
+        <activity
+            android:name=".AlbertaNevigation"
+            android:label="@string/title_activity_alberta_nevigation" >
+        </activity>
+        <activity
+            android:name=".AlbertaNavigation"
+            android:label="@string/title_activity_alberta_navigation" >
+        </activity>
+        <activity
+            android:name=".Alberta_Message"
+            android:label="@string/title_activity_alberta__message" >
+        </activity>
+        <activity
+            android:name=".alberta_com"
+            android:label="@string/title_activity_alberta_com" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Alberta_Map"
+            android:label="@string/title_activity_alberta__map" >
+        </activity>
+        <activity
+            android:name=".NovaScotia_Map"
+            android:label="@string/title_activity_nova_scotia__map" >
+        </activity>
+        <activity
+            android:name=".Saskatchewan_Map"
+            android:label="@string/title_activity_saskatchewan__map" >
+        </activity>
+        <activity
+            android:name=".Northwest_Map"
+            android:label="@string/title_activity_northwest__map" >
+        </activity>
+        <activity
+            android:name=".Rockies_Map"
+            android:label="@string/title_activity_rockies__map" >
+        </activity>
+        <activity
+            android:name=".Newfound_Map"
+            android:label="@string/title_activity_newfound__map" >
+        </activity>
+        <activity
+            android:name=".Mainmap"
+            android:label="@string/title_activity_mainmap" >
+        </activity>
+        <activity
+            android:name=".Newfound_com"
+            android:label="@string/title_activity_newfound_com" >
+        </activity>
+        <activity
+            android:name=".NovaScotia_com"
+            android:label="@string/title_activity_nova_scotia_com" >
+        </activity>
+        <activity
+            android:name=".Saskatchewan_com"
+            android:label="@string/title_activity_saskatchewan_com" >
+        </activity>
+        <activity
+            android:name=".Rockies_com"
+            android:label="@string/title_activity_rockies_com" >
+        </activity>
+        <activity
+            android:name=".Northwest_com"
+            android:label="@string/title_activity_northwest_com" >
+        </activity>
+        <activity
+            android:name=".List_json"
+            android:label="@string/title_activity_list_json" >
+        </activity>
+        <activity
+            android:name=".List_Search"
+            android:label="@string/title_activity_list__search" >
+        </activity>
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".about"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

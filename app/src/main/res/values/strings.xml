@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Natural Tourist Attractions</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action1">Help</string>
+    <string name="action2">About</string>
+    <string name="title_activity_detail">detail</string>
+    <string name="title_activity_heritage">heritage</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_heritage_main">Heritage</string>
+    <string name="title_activity_saskatchewan">Saskatchewan</string>
+    <string name="title_activity_alberta">Alberta</string>
+    <string name="title_activity_northwest">Northwest</string>
+    <string name="title_activity_nova">Nova Scotia</string>
+    <string name="title_activity_rockies">Rockies</string>
+    <string name="title_activity_newfound">Newfoundland</string>
+
+<!-- title of each pictures in Heritage_main -->
+    <string name="us">Canada UNESCO</string>
+    <string name="aplace">Natural Attractions</string>
+    <string name="place1">Saskatchewan</string>
+    <string name="place2">Nova Scotia</string>
+    <string name="place3">Northwest Territories</string>
+    <string name="place4">Alberta</string>
+    <string name="place5">Canadian Rockies Mountain Parks</string>
+    <string name="place6">Gros Morne World Heritage Site, Newfoundland and Labrador</string>
+
+<!-- title of places in information page -->
+    <string name="nova_title">Lighthouse at Peggy’s Cove, Nova Scotia</string>
+    <string name="alberta_title">Mountains in Alberta</string>
+    <string name="sas_title">Summer Landscape, Saskatchewan</string>
+    <string name="north_title">Dog Sleigh in Northwest Territories</string>
+    <string name="rockies_title">Canadian Rockies Mountain Parks</string>
+    <string name="newf_title">Gros Morne World Heritage Site, Newfoundland and Labrador</string>
+
+<!-- information about places in information page-->
+    <string name="nova_des">Nova Scotia is home to over 160 historic lighthouses, but no beacon is
+        as photographed as the one in the vibrant fishing village of Peggy’s Cove. Built in 1915,
+        Peggy’s Point Lighthouse still keeps watch over surging ocean waves and working lobster boats.
+        Scramble over giant rocks worn smooth by the sea and share in the view.</string>
+    <string name="alberta_des">Undoubtedly one of the most beautiful places on earth, as vast as it is
+        varied in landscape and experiences. Alberta is an exceptional vacation destination you won’t
+        soon forget, filled with unique activities, urban charms and cultural jewels.
+        Located in the heart of western Canada, the province of Alberta is bordered by the Canadian Rocky Mountains.</string>
+    <string name="sas_des">Saskatchewan is located in western Canada between the Canadian provinces of
+        Alberta and Manitoba, and directly north of the U.S. states of North Dakota and Montana. Along
+        with a rich mix of history and culture, Saskatchewan offers visitors endless freshwater fishing,
+        water-based recreation opportunities, abundant wildlife, uncrowded parks, adventures like
+        caning and horseback riding, farm vacations and accessible golf.
+        </string>
+    <string name="north_des">The Northwest Territories is a land of contrasts. It is 1.17 million square
+        kilometres of mountains, forests and tundra threaded by wild, clean rivers feeding thousands of pristine lakes.
+        Over 40,000 people live amid this rugged natural beauty. You can view rare wildlife species,
+        from white wolves to white whales, and see herds of bison, prowling bears, moose and caribou by the thousands. </string>
+    <string name="rockies_des">The plains of Alberta and British Columbia are the peaks of the Canadian Rocky Mountains.
+        Banff, Jasper, Lake Louise, Fernie etc are alpine towns sprinkled throughout the Canadian Rockies.
+        The Icefields Parkway is also an ideal area for exploring Canada wild. Kananaskis Country,
+        Waterton, Glacier and Yoho National Parks etc are recreational areas with alpine activities and splendour.
+       </string>
+    <string name="newf_des">Gros Morne National Park of Canada was designated a UNESCO World Heritage Site in 1987.
+        It is an area of natural beauty, wildlife, and recreational activities.
+        Visitors can hike through wild, uninhabited mountains and camp by the sea. Boat tours bring visitors under the towering cliffs
+        of a freshwater fjord carved out by glaciers. Waterfalls, marine inlets etc.</string>
+    <string name="title_activity_commend">commend</string>
+
+    <string name="commend">able to delete or modify content, please enter your name and click add or delete button</string>
+    <string name="title_activity_write">write</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_sas_commends">SasCommends</string>
+    <string name="title_activity_sas_write">SasWrite</string>
+    <string name="title_activity_sas_edit">SasEdit</string>
+    <string name="title_activity_alberta_com1">Alberta_com1</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_alberta_nevigation">AlbertaNevigation</string>
+    <string name="title_activity_alberta_navigation">AlbertaNavigation</string>
+    <string name="title_activity_alberta_navi">Alberta_navi</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_alberta__navi">Alberta_Navi</string>
+    <string name="title_activity_alberta_expan">Alberta_expan</string>
+    <string name="title_activity_alberta__message">Alberta_Message</string>
+    <string name="title_activity_alberta_message">Alberta_message</string>
+    <string name="title_activity_alberta_com">alberta_com</string>
+    <string name="title_activity_alberta__map">AlbertaMap</string>
+    <string name="title_activity_nova_scotia__map">NovaScotiaMap</string>
+    <string name="title_activity_saskatchewan__map">SaskatchewanMap</string>
+    <string name="title_activity_northwest__map">NorthwestMap</string>
+    <string name="title_activity_rockies__map">RockiesMap</string>
+    <string name="title_activity_newfound__map">GrosMorneMap</string>
+    <string name="title_activity_mainmap">MainMap</string>
+    <string name="title_activity_newfound_com">Newfound_com</string>
+    <string name="title_activity_nova_scotia_com">NovaScotia_com</string>
+    <string name="title_activity_saskatchewan_com">Saskatchewan_com</string>
+    <string name="title_activity_rockies_com">Rockies_com</string>
+    <string name="title_activity_northwest_com">Northwest_com</string>
+    <string name="title_activity_list_json">ListPlaces</string>
+    <string name="title_activity_list__search">SearchPlaces</string>
+    <string name="title_activity_help">help</string>
+    <string name="help1">A list of heritage sites has links to info pages or relevant websites, making it easy to get information</string>
+    <string name="help2">Links to any relevant websites for a particular place:
+		When customers needs more information about a particular place, they can go directly to the relevant web site instead of searching for it on the internet.</string>
+    <string name="help3"> Photo and description/information of the destination:
+		This page shows detailed information about the heritage places including pictures.</string>
+    <string name="help4">Comments section where people get post impressions or tips:
+		If some one wants to share his stories or opinions on a place which
+		 they have been to, this page is lets him upload his thoughts and stories freely.</string>
+    <string name="help5">Quick search function:
+		This search function helps users to find a particular place quickly and it links to Map and
+		info pages, so it is really convenient for users.</string>
+    <string name="help6">A Map of Canada showing the UNESCO sites and natural parks as an overview.</string>
+
+    <string name="about">The app will allow users to access information about Canada national and
+        provincial parks which have been recognized by the World Heritage Committee as some of the most significant sites on Earth.
+        It will list both cultural and natural places.  It will provide both information and pictures of the sites, and can be used
+        as a trip planner or just for browsing through the many great places in Canada.
+Also it can be used as educational resources for students or who want to know Canada heritage sites. </string>
+    <string name="title_activity_about">about</string>
+</resources>

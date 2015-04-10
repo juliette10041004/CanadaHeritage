@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Main" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sasimageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/p22"
+        android:background="#ff59bcff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/sas_title"
+        android:id="@+id/sastextView9"
+        android:autoText="true"
+        android:textColor="#ff122d44"
+        android:layout_below="@+id/sasimageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/sas_des"
+        android:id="@+id/sastextView10"
+        android:layout_below="@+id/sastextView9"
+        android:layout_alignLeft="@+id/sastextView9"
+        android:layout_alignStart="@+id/sastextView9" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sasimageButton9"
+        android:src="@drawable/mapbutton"
+        android:layout_alignTop="@+id/sasimageButton10"
+        android:layout_alignLeft="@+id/sastextView10"
+        android:layout_alignStart="@+id/sastextView10" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sasimageButton10"
+        android:src="@drawable/webbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sasimageButton11"
+        android:src="@drawable/commend"
+        android:layout_alignTop="@+id/sasimageButton10"
+        android:layout_alignRight="@+id/sastextView10"
+        android:layout_alignEnd="@+id/sastextView10" />
+
+
+</RelativeLayout>

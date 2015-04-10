@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Main" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfimageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/p66"
+        android:background="#ff59bcff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/newf_title"
+        android:id="@+id/newftextView9"
+        android:autoText="true"
+        android:textColor="#ff122d44"
+        android:layout_below="@+id/newfimageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/newf_des"
+        android:id="@+id/newftextView10"
+        android:layout_below="@+id/newftextView9"
+        android:layout_alignLeft="@+id/newftextView9"
+        android:layout_alignStart="@+id/newftextView9" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfimageButton9"
+        android:src="@drawable/mapbutton"
+        android:layout_alignTop="@+id/newfimageButton10"
+        android:layout_alignLeft="@+id/newftextView10"
+        android:layout_alignStart="@+id/newftextView10" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfimageButton10"
+        android:src="@drawable/webbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newfimageButton11"
+        android:src="@drawable/commend"
+        android:layout_alignTop="@+id/newfimageButton10"
+        android:layout_alignRight="@+id/newftextView10"
+        android:layout_alignEnd="@+id/newftextView10" />
+
+
+</RelativeLayout>
